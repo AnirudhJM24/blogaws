@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+      body{
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20 20px;
+        font-family: 'Noto Serif', serif;
+        max-width: 1200px;
+        background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+      }
+      p, h1, h2, h3, a, ul{
+        margin: 10;
+        padding: 0;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+      }
+  
+      /* nav & footer styles */
+      nav{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+        text-transform: uppercase;
+        background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+      }
+      nav ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+      }
+      nav li{
+        list-style-type: none;
+        margin-left: 20px;
+      }
+      nav h1{
+        font-size: 3em;
+      }
+      nav p, nav a{
+        color: rgb(0, 0, 0);
+        font-weight: 300;
+      }
+      footer{
+        color: rgb(233, 8, 8);
+        text-align: center;
+        margin: 80px auto 20px;
+      }
+      h2{
+        margin-bottom: 40px;
+      }
+      h3{
+        text-transform: capitalize;
+        margin-bottom: 8px;
+      }
+      .content{
+        margin-left: 20px;
+        background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+      }
+  
+      /* index styles */
+      .blogs a{
+        display: block;
+        margin: 40px 0;
+        padding-left: 30px;
+        border-left: 6px solid crimson;
+      }
+      .blogs a:hover h3{
+        color: crimson;
+      }
+  
+      /* details styles */
+      .details{
+        position: relative;
+      }
+      .delete{
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 50%;
+        padding: 8px;
+      }
+      .delete:hover{
+        cursor: pointer;
+        box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+      }
+  
+      /* details styles */
+  
+      /* create styles */
+      .create-blog form{
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      .create-blog input,
+      .create-blog textarea{
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+        padding: 8px;
+      }
+      .create-blog label{
+        display: block;
+        margin-top: 24px;
+      }
+      textarea{
+        height: 120px;
+      }
+      .create-blog button{
+        margin-top: 20px;
+        background: rgb(53, 208, 110);
+        color: white;
+        padding: 6px;
+        border: 0;
+        font-size: 1.2em;
+        cursor: pointer;
+      }
