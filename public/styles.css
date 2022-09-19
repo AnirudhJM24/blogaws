@@ -5,8 +5,7 @@
         padding: 20 20px;
         font-family: 'Noto Serif', serif;
         max-width: 1200px;
-        background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        background: white
       }
       p, h1, h2, h3, a, ul{
         margin: 10;
@@ -23,8 +22,7 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
         padding-bottom: 10px;
         border-bottom: 1px solid #ddd;
         text-transform: uppercase;
-        background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+        background: white
       }
       nav ul{
         display: flex;
@@ -56,8 +54,7 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%
       }
       .content{
         margin-left: 20px;
-        background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+        background:white
       }
   
       /* index styles */
@@ -66,6 +63,7 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%
         margin: 40px 0;
         padding-left: 30px;
         border-left: 6px solid crimson;
+        
       }
       .blogs a:hover h3{
         color: crimson;
@@ -81,10 +79,11 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%
         right: 0;
         border-radius: 50%;
         padding: 8px;
+        background-color: red;
       }
       .delete:hover{
         cursor: pointer;
-        box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+        box-shadow: 1px 2px 3px red
       }
   
       /* details styles */
